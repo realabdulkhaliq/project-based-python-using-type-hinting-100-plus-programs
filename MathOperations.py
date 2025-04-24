@@ -3,4 +3,6 @@ num = float(input("Enter any number: "))
 sq = num * num
 print("Square of given number is :", sq)
 
+sr = num ** 0.5
+print("Square root of given number is :", sr)
 
