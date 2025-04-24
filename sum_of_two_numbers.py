@@ -14,3 +14,10 @@ print("The sum of two numbers is :", num1 + num2)
 # sum = num3 + num4
 # print("The sum of two numbers is :", sum)
 
+# num5 = float(input("Enter first number: "))
+# num6 = float(input("Enter second number: "))
+
+# print("The sum of two numbers is :", num5 + num6)
+
+# sum = num5 + num6
+# print("The sum of two numbers is :", sum)
