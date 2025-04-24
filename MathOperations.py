@@ -6,3 +6,7 @@ print("Square of given number is :", sq)
 sr = num ** 0.5
 print("Square root of given number is :", sr)
 
+import math
+sqroot = math.sqrt(num)
+print("Square root of given number is :", sqroot)
+
