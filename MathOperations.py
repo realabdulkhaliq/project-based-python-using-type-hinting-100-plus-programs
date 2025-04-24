@@ -10,3 +10,6 @@ import math
 sqroot = math.sqrt(num)
 print("Square root of given number is :", sqroot)
 
+square= math.pow(num, 2)
+print("Square of given number is :", square)
+# num = float(input("Enter any number: "))
