@@ -8,3 +8,7 @@ num2 = temp
 print("After swapping, first number is:", num1)
 print("After swapping, second number is:", num2)
 
+# Easy way in Python
+num1 , num2 = num2 , num1
+print("After swapping, first number is:", num1)
+print("After swapping, second number is:", num2)
