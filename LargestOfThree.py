@@ -31,6 +31,11 @@ largest = (lambda x, y, z: x if (x > y and x > z) else y if (y > x and y > z) el
 print("Largest number is:", largest)
 
 # Using list comprehension
-largest = [num1, num2, num3]
-largest.sort(reverse=True)
-print("Largest number is:", largest[0])
+# largest = [num1, num2, num3]
+# largest.sort(reverse=True)
+# print("Largest number is:", largest[0])
+
+# Using reduce function
+from functools import reduce
+largest = reduce(lambda x, y: x if (x > y) else y, [num1, num2, num3])
+print("Largest number is:", largest)
