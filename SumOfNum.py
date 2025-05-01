@@ -10,4 +10,11 @@ else:
 
     print("The sum of the first", num, "natural numbers is:", sum)
 
+if num < 0:
+    print("Please enter a natural number")
+else:
+    while num > 0:
+        sum += num
+        num -= 1
+    print("The sum of natural numbers is:", sum)
 
