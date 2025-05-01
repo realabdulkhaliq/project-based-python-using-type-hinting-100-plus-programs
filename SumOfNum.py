@@ -18,3 +18,12 @@ else:
         num -= 1
     print("The sum of natural numbers is:", sum)
 
+
+lower = int(input("Enter lower range: "))
+upper = int(input("Enter upper range: "))
+
+sum = 0
+
+for i in range(lower, upper + 1):
+    sum += i
+print("The sum of natural numbers between", lower, "and", upper, "is:", sum)
