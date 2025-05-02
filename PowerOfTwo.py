@@ -16,3 +16,9 @@ else:
     print("Power of 2 is not possible for negative numbers")
 
 
+# Using Lambda Function
+terms = int(input("Enter the number of terms: "))
+power_of_two = list(map(lambda x: 2 ** x, range(terms + 1)))
+print("Power of 2:", power_of_two)
+
+
