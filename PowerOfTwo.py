@@ -26,3 +26,7 @@ print("Power of 2:", power_of_two)
 power_of_two = [2 ** x for x in range(terms + 1)]
 print("Power of 2:", power_of_two)
 
+# Printing Individual Values
+power_of_two = list(map(lambda x: 2 ** x, range(terms + 1)))
+for i in range(terms + 1):
+    print("The Value of 2 raised to the power of", i, "is", power_of_two[i])
