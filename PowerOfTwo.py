@@ -22,3 +22,7 @@ power_of_two = list(map(lambda x: 2 ** x, range(terms + 1)))
 print("Power of 2:", power_of_two)
 
 
+# Using List Comprehension 
+power_of_two = [2 ** x for x in range(terms + 1)]
+print("Power of 2:", power_of_two)
+
