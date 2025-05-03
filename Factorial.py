@@ -12,3 +12,14 @@ else:
     print("The factorial of", num, "is", fact)
 
 
+num = int(input("Enter a number whose factorial did you want: "))
+def factorial(n):
+    if n < 0:
+        return "Factorial does not exist for negative numbers"
+    elif n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+    
+# factorial(n)
+print("The factorial of", num, "is", factorial(num))
