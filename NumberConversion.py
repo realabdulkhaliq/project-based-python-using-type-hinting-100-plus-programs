@@ -27,4 +27,13 @@ binary_str = input("Enter a binary number: ")
 decimal_num = int(binary_str, 2)
 print(f"Decimal value: of {binary_str} is {decimal_num}")
 
+# Manual conversion
+binary_str = input("Enter a binary number: ")
+decimal_num = 0
+
+for i, digit in enumerate(reversed(binary_str)):
+    if digit == '1':
+        decimal_num += 2 ** i
+
+print(f"Decimal value: {decimal_num}")
 
