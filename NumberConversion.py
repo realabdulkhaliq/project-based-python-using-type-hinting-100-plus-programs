@@ -16,3 +16,6 @@ print("Decimal:", decimal, "in binary is", format(decimal, 'X'))
 binary = int(input("Enter a binary number: "), 2)
 print("decimal is", binary)
 
+octal = int(input("Enter an octal number: "), 8)
+print("Decimal is", octal)
+
