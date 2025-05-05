@@ -13,3 +13,6 @@ print("Decimal:", decimal, "in octal is", format(decimal, 'o'))
 print("Decimal:", decimal, "in hexadecimal is", format(decimal, 'x'))
 print("Decimal:", decimal, "in binary is", format(decimal, 'X'))
 
+binary = int(input("Enter a binary number: "), 2)
+print("decimal is", binary)
+
