@@ -23,3 +23,8 @@ hexadecimal = int(input("Enter a hexadecimal number: "), 16)
 print("Decimal is", hexadecimal)
 
 
+binary_str = input("Enter a binary number: ")
+decimal_num = int(binary_str, 2)
+print(f"Decimal value: of {binary_str} is {decimal_num}")
+
+
