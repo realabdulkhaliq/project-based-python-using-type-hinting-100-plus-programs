@@ -19,3 +19,7 @@ print("decimal is", binary)
 octal = int(input("Enter an octal number: "), 8)
 print("Decimal is", octal)
 
+hexadecimal = int(input("Enter a hexadecimal number: "), 16)
+print("Decimal is", hexadecimal)
+
+
