@@ -36,3 +36,23 @@ else:
 
 # Armstrong numbers are numbers that are equal to the sum of their own digits raised to the power of the number of digits.
 
+
+lower = int(input("Enter lower range: "))
+upper = int(input("Enter upper range: "))
+
+
+for num in range(lower, upper + 1):
+    sum = 0
+    temp = num
+    order = len(str(num))
+    while temp > 0:
+        digit = temp % 10
+        sum += digit ** order
+        temp //= 10
+
+    if num == sum:
+        print(num, end=" ")
+
+print("are Armstrong numbers between", lower, "and", upper)
+
+# The above code checks for Armstrong numbers in a given range.
