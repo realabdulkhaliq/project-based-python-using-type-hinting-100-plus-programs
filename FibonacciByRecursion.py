@@ -15,5 +15,18 @@ for i in range(n):
 
 # print(fibo(5))
 
+# Recursive Method (Inefficient for large n)
+# Iterative Method (Most Efficient)
+def fibo(n):
+    a, b = 0, 1
+    for i in range(n):
+        print(a, end=" ")
+        a, b = b, a + b
+
+n = int(input("Enter the number of terms: "))
+print("Fibonacci sequence:")
+fibo(n)
+
+
 
 
