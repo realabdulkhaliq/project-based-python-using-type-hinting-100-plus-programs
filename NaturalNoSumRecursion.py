@@ -4,3 +4,9 @@ def NaturalNoSum(n):
     else:
         return n + NaturalNoSum(n-1)
 
+n = int(input("Enter a number: "))
+
+if n < 0:
+    print("Please enter a positive number")
+else:
+    print("The sum of the first", n, "natural numbers is:", NaturalNoSum(n))
