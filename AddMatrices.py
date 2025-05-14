@@ -9,3 +9,9 @@ B = [[1,2,3],
 C = [[0,0,0],
      [0,0,0],
      [0,0,0]]
+
+# Add the two matrices A and B
+
+for i in range(len(A)):
+    for j in range(len(A[0])):
+        C[i][j] = A[i][j] + B[i][j]
