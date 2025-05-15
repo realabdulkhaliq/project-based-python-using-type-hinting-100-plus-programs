@@ -23,3 +23,9 @@ for i in range(len(A)):
 # Print the result
 print("Matrix C:")
 print(C)
+
+print("Resultant matrix:")
+for r in C:
+    print(r)
+
+# The above code multiplies two matrices A and B and stores the result in matrix C.
