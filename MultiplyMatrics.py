@@ -19,3 +19,7 @@ for i in range(len(A)):
         for k in range(len(B)):
             C[i][j] += A[i][k] * B[k][j]
 
+
+# Print the result
+print("Matrix C:")
+print(C)
