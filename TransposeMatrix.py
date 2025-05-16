@@ -9,3 +9,8 @@ for i in range(len(A)):
         T[j][i] = A[i][j]
 
 
+# Print the transposed matrix
+for r in T:
+    print(r)
+
+
