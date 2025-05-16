@@ -16,3 +16,12 @@ for r in T:
 
 # Transpose the matrix using list comprehension
 L = [ [A[j][i] for j in range(len(A))] for i in range(len(A[0]))]
+# Print the transposed matrix
+for l in L:
+    print(l)
+
+# Transpose the matrix using zip
+Z = list(zip(*A))
+# Print the transposed matrix
+for z in Z:
+    print(z)
