@@ -24,3 +24,8 @@ for i in range(len(A)):
 print("Matrix R:")
 print(R)
 
+print("Resultant matrix:")
+for r in R:
+    print(r)
+
+# The above code multiplies two matrices A and B and stores the result in matrix C.
