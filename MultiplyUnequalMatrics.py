@@ -28,4 +28,4 @@ print("Resultant matrix:")
 for r in R:
     print(r)
 
-# The above code multiplies two matrices A and B and stores the result in matrix C.
+# The above code multiplies two matrices A and B of unequal rows and columns and stores the result in matrix R.
