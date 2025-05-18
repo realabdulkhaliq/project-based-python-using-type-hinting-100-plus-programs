@@ -10,3 +10,13 @@ R = [[0,0,0,0],
      [0,0,0,0],
      [0,0,0,0]]
 
+# Matrix Multiplication
+# Iterate through rows of A
+for i in range(len(A)):
+    # Iterate through columns of B
+    for j in range(len(B[0])):
+        # Iterate through rows of B
+        for k in range(len(B)):
+            R[i][j] += A[i][k] * B[k][j]
+
+
