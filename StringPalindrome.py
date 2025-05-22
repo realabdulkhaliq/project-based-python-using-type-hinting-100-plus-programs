@@ -9,3 +9,9 @@ reverse_string = new_string[::-1]
 # else:
 #     print(f"{get_string} is not a palindrome.")
 
+# ============
+# Check if the single word string is a palindrome
+if get_string.lower() == get_string[::-1].lower():
+    print(f"{get_string} is a palindrome.")
+else:
+    print(f"{get_string} is not a palindrome.")
