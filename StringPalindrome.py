@@ -35,3 +35,16 @@ reverse_string = new_string[::-1]
 #     print(f"{get_string} is a palindrome.")
 # else:
 #     print(f"{get_string} is not a palindrome.")
+
+
+
+# ============
+# Alternative method using a for loop
+is_palindrome = True
+for i in range(len(new_string) // 2):
+    if new_string[i] != new_string[-(i + 1)]:
+        is_palindrome = False
+if is_palindrome:
+    print(f"{get_string} is a palindrome.")
+else:
+    print(f"{get_string} is not a palindrome.")
