@@ -7,3 +7,4 @@ print(mylist[0:6])  # ['abu bakar', 'umar', 'usman', 'ali']
 
 
 print(mylist[-1:])  # ['ali']
+print(mylist[::-1])  # ['ali', 'usman', 'umar', 'abu bakar']
