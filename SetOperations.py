@@ -16,3 +16,6 @@ print("Is A a subset of B?", A <= B)
 print("Is A a superset of B?", A >= B)
 # Disjoint Sets
 print("Are A and B disjoint sets?", A.isdisjoint(B))
+# Adding an element to a set
+A.add(10)
+print("Set A after adding 10:", A)
