@@ -8,3 +8,5 @@ print("Union of A and B:", A | B)
 print("Intersection of A and B:", A & B)
 # Difference
 print("Difference of A and B:", A - B)
+# Symmetric Difference
+print("Symmetric Difference of A and B:", A ^ B)
