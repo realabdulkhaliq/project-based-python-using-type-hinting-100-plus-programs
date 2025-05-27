@@ -14,3 +14,5 @@ print("Symmetric Difference of A and B:", A ^ B)
 print("Is A a subset of B?", A <= B)
 # Superset
 print("Is A a superset of B?", A >= B)
+# Disjoint Sets
+print("Are A and B disjoint sets?", A.isdisjoint(B))
