@@ -10,3 +10,7 @@ print("Intersection of A and B:", A & B)
 print("Difference of A and B:", A - B)
 # Symmetric Difference
 print("Symmetric Difference of A and B:", A ^ B)
+# Subset
+print("Is A a subset of B?", A <= B)
+# Superset
+print("Is A a superset of B?", A >= B)
