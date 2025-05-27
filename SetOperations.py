@@ -19,3 +19,6 @@ print("Are A and B disjoint sets?", A.isdisjoint(B))
 # Adding an element to a set
 A.add(10)
 print("Set A after adding 10:", A)
+# Removing an element from a set
+A.remove(1)
+print("Set A after removing 1:", A)
