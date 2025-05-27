@@ -22,3 +22,6 @@ print("Set A after adding 10:", A)
 # Removing an element from a set
 A.remove(1)
 print("Set A after removing 1:", A)
+# Clearing a set
+C.clear()
+print("Set C after clearing:", C)
