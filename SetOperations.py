@@ -25,3 +25,6 @@ print("Set A after removing 1:", A)
 # Clearing a set
 C.clear()
 print("Set C after clearing:", C)
+# Copying a set
+D = A.copy()
+print("Copy of set A:", D)
