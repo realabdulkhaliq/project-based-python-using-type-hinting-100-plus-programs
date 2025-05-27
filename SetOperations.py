@@ -4,3 +4,5 @@ C = {4, 5}
 
 # Union
 print("Union of A and B:", A | B)
+# Intersection
+print("Intersection of A and B:", A & B)
