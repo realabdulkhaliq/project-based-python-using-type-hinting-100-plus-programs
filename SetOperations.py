@@ -30,3 +30,6 @@ D = A.copy()
 print("Copy of set A:", D)
 # Length of a set
 print("Length of set A:", len(A))
+# Iterating through a set
+for element in A:
+    print("Element in set A:", element)
