@@ -28,3 +28,5 @@ print("Set C after clearing:", C)
 # Copying a set
 D = A.copy()
 print("Copy of set A:", D)
+# Length of a set
+print("Length of set A:", len(A))
