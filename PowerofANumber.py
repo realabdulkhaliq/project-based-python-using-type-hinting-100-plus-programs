@@ -31,3 +31,7 @@ print(f"{base_number} raised to the power of {exponent} is: {result_recursive}")
 print("=====")
 print(f"{base_number} raised to the power of {exponent} using exponentiation operator is: {base_number ** exponent}")
 
+# Alternative method using Python's built-in pow function
+print("=====")
+# Using the built-in pow function
+print(f"{base_number} raised to the power of {exponent} using pow function is: {pow(base_number, exponent)}")
