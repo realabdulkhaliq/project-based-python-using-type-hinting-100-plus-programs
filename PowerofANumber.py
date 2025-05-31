@@ -26,3 +26,8 @@ result_recursive = power(base_number, exponent)
 print(f"{base_number} raised to the power of {exponent} is: {result_recursive}")
 
 
+# Alternative method using Python's built-in exponentiation operator
+
+print("=====")
+print(f"{base_number} raised to the power of {exponent} using exponentiation operator is: {base_number ** exponent}")
+
