@@ -8,14 +8,14 @@ for char in my_string.lower():
 print("Number of vowels in the string:", count)
 # This code counts the number of vowels in a given string.
 
-# ========================
-# Using a dictionary to count occurrences of each vowel
-my_string = my_string.casefold()
-count = {}.fromkeys(vowels, 0)
-for char in my_string:
-    if char in count:
-        count[char] += 1
+# # ========================
+# # Using a dictionary to count occurrences of each vowel
+# my_string = my_string.casefold()
+# count = {}.fromkeys(vowels, 0)
+# for char in my_string:
+#     if char in count:
+#         count[char] += 1
 
-print("Count of vowels in the string:", count)
-# This code counts the occurrences of each vowel in a given string.
+# print("Count of vowels in the string:", count)
+# # This code counts the occurrences of each vowel in a given string.
 
