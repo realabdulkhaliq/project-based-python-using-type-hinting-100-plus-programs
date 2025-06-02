@@ -19,3 +19,8 @@ print("Number of vowels in the string:", count)
 # print("Count of vowels in the string:", count)
 # # This code counts the occurrences of each vowel in a given string.
 
+# ========================
+# Using dictionary comprehension
+count = {key: sum ( [ 1 for char in my_string if char == key ] ) for key in vowels }
+print("Count of vowels in the string:", count)
+# This code counts the occurrences of each vowel in a given string using dictionary comprehension.
