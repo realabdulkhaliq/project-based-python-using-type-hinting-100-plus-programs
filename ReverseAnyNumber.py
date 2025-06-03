@@ -18,4 +18,8 @@ print("Reversed number using while loop:", rn)
 # This code reverses any given number using a while loop.
 
 
+print("=====")
 
+print("Reversed number using string manipulation:", str(num)[::-1])
+
+# This code reverses a number using string manipulation.
