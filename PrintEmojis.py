@@ -14,3 +14,4 @@ print(b'Laugh \xF0\x9F\x98\x82'.decode('utf-8')) # Face with Tears of Joy Emoji
 print(b'Wink \xF0\x9F\x98\x89'.decode('utf-8')) # Winking Face Emoji
 print(b'Party \xF0\x9F\x8E\x89'.decode('utf-8')) # Party Popper Emoji
 print(b'Rocket \xF0\x9F\x9A\x80'.decode('utf-8')) # Rocket Emoji
+print(b'Wave \xF0\x9F\x91\x8B'.decode('utf-8')) # Waving Hand Emoji
