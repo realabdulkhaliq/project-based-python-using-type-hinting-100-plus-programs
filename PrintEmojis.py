@@ -8,3 +8,4 @@ print(b'Exclamation \xE2\x9D\x97'.decode('utf-8')) # Heavy Exclamation Mark Emoj
 print(b'Fire \xF0\x9F\x94\xA5'.decode('utf-8')) # Fire Emoji
 print(b'Checkmark \xE2\x9C\x93'.decode('utf-8')) # Check Mark with Check Emoji
 print(b'Crossmark \xE2\x9C\x96'.decode('utf-8')) # Cross Mark with Cross Emoji
+print(b'Coffee \xE2\x98\x95'.decode('utf-8')) # Hot Beverage Emoji
