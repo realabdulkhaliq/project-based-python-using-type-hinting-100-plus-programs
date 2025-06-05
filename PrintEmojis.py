@@ -11,3 +11,4 @@ print(b'Crossmark \xE2\x9C\x96'.decode('utf-8')) # Cross Mark with Cross Emoji
 print(b'Coffee \xE2\x98\x95'.decode('utf-8')) # Hot Beverage Emoji
 print(b'Love \xF0\x9F\x98\x8D'.decode('utf-8')) # Smiling Face with Heart-Eyes Emoji
 print(b'Laugh \xF0\x9F\x98\x82'.decode('utf-8')) # Face with Tears of Joy Emoji
+print(b'Wink \xF0\x9F\x98\x89'.decode('utf-8')) # Winking Face Emoji
